@@ -1,0 +1,187 @@
+body {
+    background-image: url(../images/cooking.jpg);
+    background-size: 80%;
+    margin: auto 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: lighter;
+    color: #ffffe6;
+    line-height: 0;
+}
+
+h2 {
+    font-weight: 350;
+    color: #874569;
+    line-height: 0.7;
+    
+}
+
+h3 {
+    font-weight: 350;
+    color: #874569;
+    line-height: 0.7;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #874569;
+    text-align: center;
+    font-weight: lighter;
+    height: 90px;
+    line-height: 0;
+   
+    
+}
+
+.opacity {
+    background-color: #ffffff80;
+    height: 625px;
+  
+    
+}
+
+.courses {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 15px 20px 0px 20px;
+    justify-content: center;
+}
+
+.recipe-row {
+    margin: 0px 10px 20px;
+    width: 25%;
+    background-color: #ffffe6;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #874569;
+    
+
+}
+
+
+main {
+    background: #ffffe6;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #874569;
+    
+}
+
+.recipe-box {
+    background: #ffffe6;
+    width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #874569;
+}
+
+.recipe{
+    display:flex;
+}
+
+.intro {
+    background: #ffffe6;
+    justify-content: center;
+    margin: 0 auto;
+    padding:1px 30px;
+    font-weight: lighter;  
+    font-size: 14px;
+    line-height: 1.5;
+   
+    border-bottom: 2px solid #874569;
+}
+
+.ingredients {
+    background: #ffffe6;
+    font-size: 15px;
+    width: 230px;
+    justify-content: center;
+    margin-top:25px;
+    margin-left: 40px;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #874569;
+    list-style-position: inside;
+    text-align: left;
+    
+}
+
+ul {
+    padding:2px;
+    font-size: 15px;
+    line-height: 2;
+   
+}
+
+.method {
+    background: #ffffe6;
+    font-size: 15px;
+    width: 600px;
+    justify-content: center;
+    margin-top:25px;
+    margin-left: 40px;
+   
+    padding:5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #874569;
+    list-style-position: outside;
+    text-align: left;
+    
+}
+
+ol {
+    
+    font-size: 15px;
+    line-height: 2;
+   
+}
+
+
+.image {
+    background: #ffffe6; 
+    padding:10px;
+    margin:auto;
+    border-radius: 5px;
+    border: 2px solid #874569;
+   
+  
+}
+
+
+
+footer {
+    background-color: #874569;
+    text-align: center;
+    color:#ffffe6;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 1.5;
+    padding:1px;
+  
+}
+
+
+
